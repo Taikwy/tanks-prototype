@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tanks!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="game.css">
+   
+    </head>
+    <body>
+        <header>
+            <nav>
+                <h1>TANKS!</h1>
+                <div class="topnav">
+                    <a href ="https://people.rit.edu/tw5417/235/">HOME</a>
+                    <a href ="proposal.html">PROPOSAL</a>
+                    <a href ="documentation.html">DOCUMENTATION</a>
+                    <a href ="game.html">GAME</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div id="directions">
+                Use WASD to move your tank, move the cursor to aim, and left click to fire a rocket! Rockets will cancel other rockets out, but your rockets can also bounce up to 2 times against walls.
+            </div>
+            <section id="gameScreen">
+                <!-- External libraries -->
+                <!-- https://github.com/pixijs/pixi.js?utm_source=html5weekly -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.3.3/pixi.min.js"></script>
+                <!--  https://github.com/goldfire/howler.js -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
+
+                <!-- My JS files -->
+                <script src="js/main.js"></script>
+                <script src="js/classes.js"></script>
+                <script src="js/utilities.js"></script>
+                <script src="js/keys.js"></script>
+            </section>
+        </main>
+        <footer>
+            
+        </footer>
+    </body>
+</html>
