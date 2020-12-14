@@ -1,2 +1,2 @@
-# 235-Project3
+# tanks-prototype
 Project 3 from IGME 235
